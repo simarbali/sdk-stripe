@@ -5,11 +5,15 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-   "build":"tsc"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "stripe": "^13.10.0"
   }
 }
